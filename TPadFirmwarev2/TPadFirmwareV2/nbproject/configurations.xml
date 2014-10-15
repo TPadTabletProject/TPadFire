@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="common" displayName="common" projectFiles="true">
+        <itemPath>_Libraries/common/HardwareProfile.h</itemPath>
+        <itemPath>_Libraries/common/logging.c</itemPath>
+        <itemPath>_Libraries/common/logging.h</itemPath>
+        <itemPath>_Libraries/common/platform.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libadb" displayName="libadb" projectFiles="true">
+        <logicalFolder name="dist" displayName="dist" projectFiles="true">
+          <logicalFolder name="PIC32MX250F128B"
+                         displayName="PIC32MX250F128B"
+                         projectFiles="true">
+            <logicalFolder name="production" displayName="production" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>_Libraries/libadb/adb.c</itemPath>
+        <itemPath>_Libraries/libadb/adb.h</itemPath>
+        <itemPath>_Libraries/libadb/adb_file.c</itemPath>
+        <itemPath>_Libraries/libadb/adb_file.h</itemPath>
+        <itemPath>_Libraries/libadb/adb_file_private.h</itemPath>
+        <itemPath>_Libraries/libadb/adb_packet.c</itemPath>
+        <itemPath>_Libraries/libadb/adb_packet.h</itemPath>
+        <itemPath>_Libraries/libadb/adb_private.h</itemPath>
+        <itemPath>_Libraries/libadb/adb_types.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libbtstack" displayName="libbtstack" projectFiles="true">
+        <logicalFolder name="dist" displayName="dist" projectFiles="true">
+          <logicalFolder name="PIC32MX250F128B"
+                         displayName="PIC32MX250F128B"
+                         projectFiles="true">
+            <logicalFolder name="production" displayName="production" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <logicalFolder name="btstack" displayName="btstack" projectFiles="true">
+            <itemPath>_Libraries/libbtstack/include/btstack/btstack.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/hal_cpu.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/hal_tick.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/hci_cmds.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/linked_list.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/memory_pool.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/run_loop.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/sdp_util.h</itemPath>
+            <itemPath>_Libraries/libbtstack/include/btstack/utils.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>_Libraries/libbtstack/src/btstack_memory.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/btstack_memory.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/bt_control.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/debug.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci_cmds.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci_dump.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci_dump.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci_transport.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/hci_transport_mchpusb.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/l2cap.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/l2cap.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/l2cap_signaling.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/l2cap_signaling.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/linked_list.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/memory_pool.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/remote_device_db.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/rfcomm.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/rfcomm.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/run_loop.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/run_loop_private.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/sdp.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/sdp.h</itemPath>
+          <itemPath>_Libraries/libbtstack/src/sdp_util.c</itemPath>
+          <itemPath>_Libraries/libbtstack/src/utils.c</itemPath>
+        </logicalFolder>
+        <itemPath>_Libraries/libbtstack/config.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libconn" displayName="libconn" projectFiles="true">
+        <logicalFolder name="dist" displayName="dist" projectFiles="true">
+          <logicalFolder name="PIC32MX250F128B"
+                         displayName="PIC32MX250F128B"
+                         projectFiles="true">
+            <logicalFolder name="production" displayName="production" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>_Libraries/libconn/accessory.c</itemPath>
+        <itemPath>_Libraries/libconn/accessory.h</itemPath>
+        <itemPath>_Libraries/libconn/bt_app.c</itemPath>
+        <itemPath>_Libraries/libconn/bt_app.h</itemPath>
+        <itemPath>_Libraries/libconn/connection.c</itemPath>
+        <itemPath>_Libraries/libconn/connection.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libusb" displayName="libusb" projectFiles="true">
+        <logicalFolder name="dist" displayName="dist" projectFiles="true">
+          <logicalFolder name="PIC32MX250F128B"
+                         displayName="PIC32MX250F128B"
+                         projectFiles="true">
+            <logicalFolder name="production" displayName="production" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>_Libraries/libusb/usb_config.c</itemPath>
+        <itemPath>_Libraries/libusb/usb_config.h</itemPath>
+        <itemPath>_Libraries/libusb/usb_host_android.c</itemPath>
+        <itemPath>_Libraries/libusb/usb_host_android.h</itemPath>
+        <itemPath>_Libraries/libusb/usb_host_bluetooth.c</itemPath>
+        <itemPath>_Libraries/libusb/usb_host_bluetooth.h</itemPath>
+        <itemPath>_Libraries/libusb/usb_host_driver_common.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="microchip" displayName="microchip" projectFiles="true">
+        <logicalFolder name="common" displayName="common" projectFiles="true">
+          <logicalFolder name="New Folder" displayName="New Folder" projectFiles="true">
+          </logicalFolder>
+          <itemPath>_Libraries/microchip/common/uart2.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <logicalFolder name="USB" displayName="USB" projectFiles="true">
+            <itemPath>_Libraries/microchip/include/USB/usb.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_ch9.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_common.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_device.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_hal.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_hal_pic24.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_hal_pic32.h</itemPath>
+            <itemPath>_Libraries/microchip/include/USB/usb_host.h</itemPath>
+          </logicalFolder>
+          <itemPath>_Libraries/microchip/include/Compiler.h</itemPath>
+          <itemPath>_Libraries/microchip/include/GenericTypeDefs.h</itemPath>
+          <itemPath>_Libraries/microchip/include/struct_queue.h</itemPath>
+          <itemPath>_Libraries/microchip/include/timer.h</itemPath>
+          <itemPath>_Libraries/microchip/include/uart2.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="usb" displayName="usb" projectFiles="true">
+          <itemPath>_Libraries/microchip/usb/usb_hal_local.h</itemPath>
+          <itemPath>_Libraries/microchip/usb/usb_host.c</itemPath>
+          <itemPath>_Libraries/microchip/usb/usb_host_local.h</itemPath>
+          <itemPath>_Libraries/microchip/usb/usb_pic32.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.c</itemPath>
+      <itemPath>PIC32MX250pins.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>./_Libraries/common</Elem>
+    <Elem>./_Libraries/libadb</Elem>
+    <Elem>./_Libraries/libbtstack</Elem>
+    <Elem>./_Libraries/libconn</Elem>
+    <Elem>./_Libraries/libusb</Elem>
+    <Elem>./_Libraries/microchip</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="PIC32MX250F128B" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX250F128B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>1.11</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value=".\_Libraries\libadb;.\_Libraries\libconn;.\_Libraries\libusb;.\_Libraries\libbtstack\src;.\_Libraries\libbtstack\include\btstack;.\_Libraries\libbtstack;.\_Libraries\microchip\common;.\_Libraries\microchip\usb;.\_Libraries\microchip\include;.\_Libraries\microchip\include\USB;.\_Libraries\common"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value="PLATFORM=401;NDEBUG"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-LD>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="heap-size" value="4000"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value=""/>
+        <property key="no-startup-files" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+      </C32CPP>
+      <C32Global>
+        <property key="legacy-libc" value="false"/>
+      </C32Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="false"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="false"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x1d01ffff"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="poweroptions.powerenable" value="true"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d01ffff"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

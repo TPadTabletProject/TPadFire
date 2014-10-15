@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|left"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    tools:context=".DemoStart" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="331dp"
+            android:layout_height="394dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:weightSum="2">"
+
+            <TextView
+                android:id="@+id/HeadingText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TPad"
+                android:textColor="#FF000000"
+                android:textSize="80dp"
+                android:textStyle="bold"
+                android:typeface="sans" 
+                android:gravity="right"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/HeadingText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Fire"
+                android:textColor="#FFcc0000"
+                android:textSize="80dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/DebugText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequency" />
+
+        <Button
+            android:id="@+id/UpF"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Up" />
+
+        <Button
+            android:id="@+id/DownF"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Down" />
+
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+       
+        android:orientation="vertical"
+        android:topOffset="500dp" >
+
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottomhandle" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/drawerbackground"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ComboButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/icon" />
+
+                <ImageButton
+                    android:id="@+id/BlueBallButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/blueball" />
+
+                <ImageButton
+                    android:id="@+id/BitmapButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/bitmapicon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/GlassButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/iconglass"  />
+
+                <ImageButton
+                    android:id="@+id/AudioButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/iconaudio"  />
+
+                <ImageButton
+                    android:id="@+id/TextureButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/icontexture" />
+            </LinearLayout>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</FrameLayout>

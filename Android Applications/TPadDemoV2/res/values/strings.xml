@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TPad Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="comboname">Combination Activity</string>
+    <string name="blueballname">Blue Ball Activity</string>
+
+</resources>
